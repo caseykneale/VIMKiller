@@ -9,10 +9,12 @@ function run_listener()
     while true
        @async mcu_message *= read(mcu, String)
        if occursin("KillVIM!", mcu_message)
-           #runs the following command to kill vi!
-           #ps aux | grep -ie " vi" | awk '{print $2}' | xargs kill -9
+           # runs the following commands to kill vi/m!
+           # kill $(ps h -C vi -o pid) 2>/dev/null
+           # kill $(ps h -C vim -o pid) 2>/dev/null
            try
-               run(pipeline(`ps aux`, `grep -ie " vi"`, `awk '{print $2}'`, `xargs kill -9`))
+               run(pipeline(`kill`, `$(ps h -C vi -o pid)`, `2>/dev/null`))
+               run(pipeline(`kill`, `$(ps h -C vim -o pid)`, `2>/dev/null`))
            catch
                println("Error thrown. May not be fatal")
            end
