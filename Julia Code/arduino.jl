@@ -13,8 +13,8 @@ function run_listener()
            # kill $(ps h -C vi -o pid) 2>/dev/null
            # kill $(ps h -C vim -o pid) 2>/dev/null
            try
-               run(pipeline(`kill`, `$(ps h -C vi -o pid)`, `2>/dev/null`))
-               run(pipeline(`kill`, `$(ps h -C vim -o pid)`, `2>/dev/null`))
+               run(pipeline(`kill`, `$(ps h -C vi -o pid)`, stderr="/dev/null"))
+               run(pipeline(`kill`, `$(ps h -C vim -o pid)`, stderr="/dev/null"))
            catch
                println("Error thrown. May not be fatal")
            end
