@@ -18,7 +18,7 @@ you need to have the Julia VIMKiller script running in the background. It may be
 ![alt text2](https://raw.githubusercontent.com/caseykneale/VIMKiller/master/pictures/protectedbtn.jpg) ![alt text3](https://raw.githubusercontent.com/caseykneale/VIMKiller/master/pictures/ready.jpg)
 
 ## Important Update
-A very notable missing feature has been suggested (https://github.com/caseykneale/VIMKiller/issues/1). As github users have shown distinct interest in this most sincere project (soring past 50 stars now). I wanted you all to rest well and feel safe knowing that this will be worked on. May we all stay emotionally unharmed from VIM!
+A very notable missing feature has been suggested (https://github.com/caseykneale/VIMKiller/issues/1). As github users have shown distinct interest in this most sincere project (soaring past 50 stars now). I wanted you all to rest well and feel safe knowing that this will be worked on. May we all stay emotionally unharmed from VIM!
 
 ## In this repository
 the CAD files (made in FreeCAD) for the enclosure are contained. The requisite code as well. The Arduino, solid core wire, 10kOhm resistor, 2mm diameter metal rod for the hinge cut to size, and clicky red button should be on your shelf. Who doesn't have those things?
