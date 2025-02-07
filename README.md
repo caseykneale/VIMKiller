@@ -1,4 +1,4 @@
-This project has been sunset to introduce (https://github.com/caseykneale/VIMKillerRecharged)[VIMKiller RECHARGED]! It is still viable but the team is working from a new direction now. Stay safe out there!
+This project has been sunset to introduce [https://github.com/caseykneale/VIMKillerRecharged](VIMKiller RECHARGED)! It is still viable but the team is working from a new direction now. Stay safe out there!
 
 # VIMKiller
 
