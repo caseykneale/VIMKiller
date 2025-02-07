@@ -1,3 +1,5 @@
+This project has been sunset to introduce (https://github.com/caseykneale/VIMKillerRecharged)[VIMKiller RECHARGED]! It is still viable but the team is working from a new direction now. Stay safe out there!
+
 # VIMKiller
 
 VI(M) is hard, and sometimes we need to take drastic measures. We understand your needs.
